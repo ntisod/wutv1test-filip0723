@@ -5,8 +5,8 @@ body{
 
 }
 h1{
-color: rgba(48, 35, 29, 0.9);
-
+color: hsla(18, 42%, 18%, 0.9);
+<h1 style="font-size:60px;">Heading 1</h1>
 
 
 }
