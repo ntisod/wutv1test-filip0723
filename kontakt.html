@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Site</title>
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+
+<h1>Hayas Fantastiska Datingtjänst</h1>
+
+<form action="/action_page.php" method="post">
+    
+    <fieldset>
+        <label for="fname">Förnamn:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        
+        <label for="lname">Efternamn:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+    </fieldset>
+
+    <fieldset>
+
+     
+      <label for="lname">Vad identifierar du dig som?</label><br>
+      <input type="text" id="lname" name="lname" required><br>
+      <label for="lname">Vilken stad bor du i?</label><br>
+      <input type="text" id="lname" name="lname" required><br>
+
+  </fieldset>
+
+    <fieldset>
+        <p>Vart vill du spendera din första dejt?</p>
+        <input type="radio" id="zoo" name="first_date" value="Zoo" required>
+        <label for="zoo">Zoo besök</label><br>
+
+        <input type="radio" id="movie" name="first_date" value="Movie">
+        <label for="movie">Film kväll</label><br>
+
+        <input type="radio" id="mall" name="first_date" value="Mall">
+        <label for="mall">Spendera dagen på ett köpcentrum</label>
+    </fieldset>
+
+    <fieldset>
+        <p>Vad tycker du om att göra på helgerna?:</p>
+        <input type="radio" id="träna" name="weekend_activity" value="Träna" required>
+        <label for="träna">Träna</label><br>
+
+        <input type="radio" id="spendera" name="weekend_activity" value="Spendera tid ensam">
+        <label for="spendera">Spendera tid ensam</label><br>
+
+        <input type="radio" id="familj" name="weekend_activity" value="Familj">
+        <label for="familj">Spendera tid med familjen</label>
+    </fieldset>
+
+    <fieldset>
+        <p>Vad är viktigt för dig i ett förhållande?:</p>
+        <input type="radio" id="humor" name="relationship_value" value="Humor" required>
+        <label for="humor">Humor</label><br>
+
+        <input type="radio" id="närhet" name="relationship_value" value="Fysiskt närhet">
+        <label for="närhet">Fysiskt närhet</label><br>
+
+        <input type="radio" id="kommunikation" name="relationship_value" value="Kommunikation">
+        <label for="kommunikation">Kommunikation</label>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
